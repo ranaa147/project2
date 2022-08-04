@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100%;
+  background: #DED1BD;
+  position: fixed;
+  z-index: 999;
+}
+.logo{
+  text-decoration: none;
+  color: black;
+  font-family: Serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+}
+nav a{
+  text-decoration: none;
+  padding-left: 1em;
+  color: #363129;
+}
+nav a:hover{
+color: black;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color:#363129;
+  border: solid;
+  border-color: #5E7C91;
+  border-radius: 50px;
+  padding: 5px 10px;
+  transition: .7s ease;
+}
+.btn:hover{
+  color: white;
+  background: #5E7C91;
+  transform: scale(1.1);
+}
+
+.pic{
+  width: 100%;
+  height: 500px;
+  background: url("men.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  }
+  .card{
+      text-decoration: none;
+      padding:0px 30px;
+      transition: 1s ease;
+  }
+  .card:hover{
+    transform: scale(.7);
+  }
+.card .info{
+  display: flex;
+  justify-content: center;
+  color: #363129;
+  background: #DED1BD;
+  padding: 10px;
+  font-family: serif;
+  font-weight: 700;
+}
+.view{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.cards .card img{
+  height: 500px;
+}
+.view .card img{
+  height: 400px;
+}
+footer{
+  padding: 20px 50px;
+  background: #DED1BD;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer form{
+  display: flex;
+  flex-direction: column;
+}
+footer form input{
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: solid;
+  padding-left: 10px;
+}
+footer form .msg{
+  height: 70px;
+}
+.submit{
+  padding-right: 10px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 1.3em;
+  width: 100px;
+  border-color: #FAFF01;
+}
+.submit:hover{
+  background: #FAFF01;
+}
+.pages{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.pages a{
+  text-decoration: none;
+  color: #363129;
+  padding-top: 10px;
+}
+.zara{
+  color: black;
+  font-family: serif;
+  letter-spacing: 5px;
+}
